@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="edit_infile">Enter input file name</string>
+    <string name="edit_outfile">Enter output file name</string>
+    <string name="button_process">Process</string>
+    <string name="text_main"></string>
+</resources>
