@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter file URL"
+        android:inputType="textUri"/>
+
+    <Button
+        android:id="@+id/button_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display Boats"/>
+
+    <TextView
+        android:id="@+id/text_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boat information will be displayed here."
+        android:textSize="16sp"
+        android:paddingTop="10dp"/>
+</LinearLayout>

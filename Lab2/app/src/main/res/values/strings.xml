@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab Assignment 2</string>
+    <string name="edit_file">Enter URL of file</string>
+    <string name="button_display">Display Boats</string>
+    <string name="text_main">Boats will be displayed here.</string>
+
+</resources>
