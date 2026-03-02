@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/opt1"
+        android:onClick="onOption1"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/opt1"/>
+
+    <item
+        android:id="@+id/opt2"
+        android:onClick="onOption2"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/opt2"/>
+
+    <item
+        android:id="@+id/opt3"
+        android:onClick="onOption3"
+        app:showAsAction="never"
+        android:title="@string/opt3"/>
+
+    <item
+        android:id="@+id/opt4"
+        android:onClick="onOption4"
+        app:showAsAction="never"
+        android:title="@string/opt4"/>
+
+    <item
+        android:id="@+id/opt5"
+        android:onClick="onOption5"
+        app:showAsAction="never"
+        android:title="@string/opt5"/>
+
+    <item
+        android:id="@+id/opt6"
+        android:onClick="onOption6"
+        app:showAsAction="never"
+        android:title="@string/opt6"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+</menu>
