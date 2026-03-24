@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_display"
+        android:title="Display List" />
+
+    <item
+        android:id="@+id/menu_load_web"
+        android:title="Load Web File" />
+
+    <item
+        android:id="@+id/menu_add_asset"
+        android:title="Add House" />
+
+    <item
+        android:id="@+id/menu_details"
+        android:title="House Details" />
+
+    <item
+        android:id="@+id/menu_remove"
+        android:title="Remove House" />
+
+    <item
+        android:id="@+id/menu_avg_tax"
+        android:title="Weighted Avg Tax" />
+
+    <item
+        android:id="@+id/menu_mansions"
+        android:title="Count Mansions" />
+
+</menu>
